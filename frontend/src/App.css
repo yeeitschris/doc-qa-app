@@ -1,0 +1,108 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.app h1 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.row input[type='text'] {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #aab;
+  cursor: not-allowed;
+}
+
+.success {
+  color: #15803d;
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+
+.error {
+  color: #b91c1c;
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+
+.hint {
+  color: #777;
+  margin: 12px 0 0;
+  font-size: 13px;
+}
+
+.loading {
+  text-align: center;
+  color: #555;
+  margin: 0 0 20px;
+}
+
+.answer-card .answer {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+
+.toggle {
+  background: none;
+  color: #2563eb;
+  padding: 0;
+  font-size: 14px;
+}
+
+.chunks {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chunks li {
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #444;
+  white-space: pre-wrap;
+}
